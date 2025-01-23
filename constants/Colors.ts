@@ -3,11 +3,17 @@
  * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
  */
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+const tintColorLight = '#0a7ea4'
+const tintColorDark = '#fff'
+const tintColorNewYear = "#902b34"
+// ideas
+const mainColor = "#902b34" // red
+const secondaryColor = "#c97443" //orange
+const componentColor = "#d7bd63" // yellow
+const tidyColor = "#144742" // dark green
 
 export const Colors = {
-  light: {
+  dark: {
     text: '#11181C',
     background: '#fff',
     tint: tintColorLight,
@@ -15,12 +21,28 @@ export const Colors = {
     tabIconDefault: '#687076',
     tabIconSelected: tintColorLight,
   },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+  // dark: {
+  //   text: '#ECEDEE',
+  //   background: '#151718',
+  //   tint: tintColorDark,
+  //   icon: '#9BA1A6',
+  //   tabIconDefault: '#9BA1A6',
+  //   tabIconSelected: tintColorDark,
+  // },
+  light: {
+    text: "yellow",
+    background: "transparent",
+    tint: mainColor,
+    icon: tidyColor,
+    tabIconDefault: tidyColor,
+    tabIconSelected: componentColor,
   },
-};
+  // ny: {
+  //   text: '#11181C',
+  //   background: mainColor,
+  //   tint: secondaryColor,
+  //   icon: tidyColor,
+  //   tabIconDefault: tidyColor,
+  //   tabIconSelected: componentColor,
+  // }
+}
